@@ -1,10 +1,10 @@
-##Evidencias Taller 05
+# Evidencias Taller 05
 Creacion de la base de datos dentro de couch DB llamada jugadores
 ![alt text](image.png)
 
 Creacion de los tres scripts para transformarlos a Json
 
-Script csv a jason
+### Script csv a jason
 ```java
 
 import pandas as pd
@@ -19,7 +19,7 @@ with open('sudamerica.json', 'w', encoding='utf-8') as f:
 print(f"Generado sudamerica.json con {len(docs)} registros.")
 ```
 
-Script html a json
+### Script html a json
 ```java
 
 import pandas as pd
@@ -38,7 +38,7 @@ df.to_json('europa.json', orient='records', indent=4, force_ascii=False)
 print("Tabla HTML convertida a JSON usando pandas.")
 ```
 
-Script pdf a jason
+### Script pdf a jason
 ```java
 
 import pdfplumber
@@ -78,7 +78,7 @@ with open("norteamerica_asia.json", "w", encoding='utf-8') as f:
 print(f"PDF convertido a JSON estructurado. Se extrajeron {len(docs)} registros.")
 ```
 
-Script combinado de todos los Json
+### Script combinado de todos los Json
 ```java
 
 import pandas as pd
@@ -96,7 +96,7 @@ print(f"Generado sudamerica.json con {len(docs)} registros.")
 ```
 
 
-Evidencias de cargas en couchDB
+### Evidencias de cargas en couchDB
 ```java
 import requests
 import json
@@ -151,20 +151,20 @@ elif response_vistas.status_code == 409:
         requests.put(f"{url}/_design/losjugadores", json=design_doc, headers=headers)
         print("Vistas actualizadas exitosamente.")
 ```
-Capturas del Frontend funcionando
+## Capturas del Frontend funcionando
 
 <img width="906" height="263" alt="image" src="https://github.com/user-attachments/assets/61808c6f-07ca-445f-8984-56577cbd293e" />
 
-Despues de haber cargado los documentos mediante el script cargar_couchb.py
+### Despues de haber cargado los documentos mediante el script cargar_couchb.py
 dentro del couchdb debria ncargarse 120 registros en total de los json combinados
 
 <img width="1062" height="672" alt="image" src="https://github.com/user-attachments/assets/e56a9b0e-4ff0-4ece-8a99-f8daefac8fae" />
 
-Una vez que tengamos cargados los documentos, dentro de Design creamos 3 vistas una para clube otra para goles y por ultimo por partidos de todo el json
+### Una vez que tengamos cargados los documentos, dentro de Design creamos 3 vistas una para clube otra para goles y por ultimo por partidos de todo el json
 se hace con una funcion de mapeo de acuerdo al dato del json
 
 
 <img width="372" height="579" alt="image" src="https://github.com/user-attachments/assets/61ecd254-bad1-43e8-887a-6ec5db76b241" />
 
-Resultado Vistas
+## Resultado Vistas
 

@@ -1,7 +1,7 @@
 import requests
 import json
 
-url_base = 'http://admin:admin@localhost:5984'
+url_base = 'http://127.0.0.1:5985'
 base_datos = "jugadores"
 url = f"{url_base}/{base_datos}"
 headers = {'Content-Type': 'application/json'}
@@ -14,14 +14,12 @@ lista_datos = []
 
 for d in data['docs']:
     lista_datos.append(d)
+# bulk
+url_bulk = f"{url}/_bulk_docs"
+datos_finales = {'docs': lista_datos}
+response_bulk = requests.post(url_bulk, headers=headers, json=datos_finales)
 
-for doc in lista_datos:
-    response = requests.post(
-        url,
-        json=doc,
-        headers=headers
-    )
-    print(f"Insertando {doc.get('nombre', 'Desconocido')} | {response.status_code}")
+print(f"Inserción masiva finalizada. Código: {response_bulk.status_code}")
 
 design_doc = {
     "_id": "_design/losjugadores",

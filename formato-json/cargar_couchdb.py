@@ -21,32 +21,3 @@ response_bulk = requests.post(url_bulk, headers=headers, json=datos_finales)
 
 print(f"Inserción masiva finalizada. Código: {response_bulk.status_code}")
 
-design_doc = {
-    "_id": "_design/losjugadores",
-    "views": {
-        "por_club": {
-            "map": "function(doc) { if (doc.club_actual) { emit(doc.club_actual, doc); } }"
-        },
-        "por_goles": {
-            "map": "function(doc) { if (doc.goles) { emit(doc.goles, doc); } }"
-        },
-        "por_partidos": {
-            "map": "function(doc) { if (doc.partidos) { emit(doc.partidos, doc); } }"
-        }
-    }
-}
-
-response_vistas = requests.put(
-    f"{url}/_design/losjugadores",
-    json=design_doc,
-    headers=headers
-)
-
-if response_vistas.status_code in [201, 202]:
-    print("Vistas creadas exitosamente.")
-elif response_vistas.status_code == 409:
-    res_get = requests.get(f"{url}/_design/losjugadores")
-    if res_get.status_code == 200:
-        design_doc['_rev'] = res_get.json().get('_rev')
-        requests.put(f"{url}/_design/losjugadores", json=design_doc, headers=headers)
-        print("Vistas actualizadas exitosamente.")

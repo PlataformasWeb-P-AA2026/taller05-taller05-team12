@@ -1,0 +1,282 @@
+[
+    {
+        "nombre": "Ecuador_Jugador_0",
+        "seleccion": "Ecuador",
+        "posicion": "Mediocampista",
+        "edad": 34,
+        "partidos": 62
+    },
+    {
+        "nombre": "Ecuador_Jugador_1",
+        "seleccion": "Ecuador",
+        "posicion": "Mediocampista",
+        "edad": 23,
+        "partidos": 11
+    },
+    {
+        "nombre": "Ecuador_Jugador_2",
+        "seleccion": "Ecuador",
+        "posicion": "Portero",
+        "edad": 23,
+        "partidos": 41
+    },
+    {
+        "nombre": "Ecuador_Jugador_3",
+        "seleccion": "Ecuador",
+        "posicion": "Delantero",
+        "edad": 22,
+        "partidos": 17
+    },
+    {
+        "nombre": "Ecuador_Jugador_4",
+        "seleccion": "Ecuador",
+        "posicion": "Delantero",
+        "edad": 27,
+        "partidos": 31
+    },
+    {
+        "nombre": "Ecuador_Jugador_5",
+        "seleccion": "Ecuador",
+        "posicion": "Mediocampista",
+        "edad": 26,
+        "partidos": 84
+    },
+    {
+        "nombre": "Ecuador_Jugador_6",
+        "seleccion": "Ecuador",
+        "posicion": "Defensa",
+        "edad": 28,
+        "partidos": 69
+    },
+    {
+        "nombre": "Ecuador_Jugador_7",
+        "seleccion": "Ecuador",
+        "posicion": "Defensa",
+        "edad": 35,
+        "partidos": 63
+    },
+    {
+        "nombre": "Ecuador_Jugador_8",
+        "seleccion": "Ecuador",
+        "posicion": "Portero",
+        "edad": 28,
+        "partidos": 4
+    },
+    {
+        "nombre": "Ecuador_Jugador_9",
+        "seleccion": "Ecuador",
+        "posicion": "Delantero",
+        "edad": 33,
+        "partidos": 40
+    },
+    {
+        "nombre": "Colombia_Jugador_0",
+        "seleccion": "Colombia",
+        "posicion": "Mediocampista",
+        "edad": 18,
+        "partidos": 4
+    },
+    {
+        "nombre": "Colombia_Jugador_1",
+        "seleccion": "Colombia",
+        "posicion": "Delantero",
+        "edad": 18,
+        "partidos": 84
+    },
+    {
+        "nombre": "Colombia_Jugador_2",
+        "seleccion": "Colombia",
+        "posicion": "Mediocampista",
+        "edad": 23,
+        "partidos": 0
+    },
+    {
+        "nombre": "Colombia_Jugador_3",
+        "seleccion": "Colombia",
+        "posicion": "Defensa",
+        "edad": 20,
+        "partidos": 18
+    },
+    {
+        "nombre": "Colombia_Jugador_4",
+        "seleccion": "Colombia",
+        "posicion": "Defensa",
+        "edad": 28,
+        "partidos": 55
+    },
+    {
+        "nombre": "Colombia_Jugador_5",
+        "seleccion": "Colombia",
+        "posicion": "Delantero",
+        "edad": 34,
+        "partidos": 8
+    },
+    {
+        "nombre": "Colombia_Jugador_6",
+        "seleccion": "Colombia",
+        "posicion": "Portero",
+        "edad": 30,
+        "partidos": 7
+    },
+    {
+        "nombre": "Colombia_Jugador_7",
+        "seleccion": "Colombia",
+        "posicion": "Delantero",
+        "edad": 28,
+        "partidos": 92
+    },
+    {
+        "nombre": "Colombia_Jugador_8",
+        "seleccion": "Colombia",
+        "posicion": "Delantero",
+        "edad": 22,
+        "partidos": 56
+    },
+    {
+        "nombre": "Colombia_Jugador_9",
+        "seleccion": "Colombia",
+        "posicion": "Defensa",
+        "edad": 28,
+        "partidos": 50
+    },
+    {
+        "nombre": "Argentina_Jugador_0",
+        "seleccion": "Argentina",
+        "posicion": "Portero",
+        "edad": 32,
+        "partidos": 29
+    },
+    {
+        "nombre": "Argentina_Jugador_1",
+        "seleccion": "Argentina",
+        "posicion": "Portero",
+        "edad": 26,
+        "partidos": 52
+    },
+    {
+        "nombre": "Argentina_Jugador_2",
+        "seleccion": "Argentina",
+        "posicion": "Portero",
+        "edad": 24,
+        "partidos": 62
+    },
+    {
+        "nombre": "Argentina_Jugador_3",
+        "seleccion": "Argentina",
+        "posicion": "Portero",
+        "edad": 19,
+        "partidos": 19
+    },
+    {
+        "nombre": "Argentina_Jugador_4",
+        "seleccion": "Argentina",
+        "posicion": "Defensa",
+        "edad": 30,
+        "partidos": 2
+    },
+    {
+        "nombre": "Argentina_Jugador_5",
+        "seleccion": "Argentina",
+        "posicion": "Delantero",
+        "edad": 34,
+        "partidos": 86
+    },
+    {
+        "nombre": "Argentina_Jugador_6",
+        "seleccion": "Argentina",
+        "posicion": "Portero",
+        "edad": 23,
+        "partidos": 92
+    },
+    {
+        "nombre": "Argentina_Jugador_7",
+        "seleccion": "Argentina",
+        "posicion": "Delantero",
+        "edad": 28,
+        "partidos": 91
+    },
+    {
+        "nombre": "Argentina_Jugador_8",
+        "seleccion": "Argentina",
+        "posicion": "Delantero",
+        "edad": 21,
+        "partidos": 78
+    },
+    {
+        "nombre": "Argentina_Jugador_9",
+        "seleccion": "Argentina",
+        "posicion": "Portero",
+        "edad": 29,
+        "partidos": 78
+    },
+    {
+        "nombre": "Brasil_Jugador_0",
+        "seleccion": "Brasil",
+        "posicion": "Portero",
+        "edad": 20,
+        "partidos": 83
+    },
+    {
+        "nombre": "Brasil_Jugador_1",
+        "seleccion": "Brasil",
+        "posicion": "Portero",
+        "edad": 30,
+        "partidos": 63
+    },
+    {
+        "nombre": "Brasil_Jugador_2",
+        "seleccion": "Brasil",
+        "posicion": "Portero",
+        "edad": 18,
+        "partidos": 0
+    },
+    {
+        "nombre": "Brasil_Jugador_3",
+        "seleccion": "Brasil",
+        "posicion": "Portero",
+        "edad": 28,
+        "partidos": 10
+    },
+    {
+        "nombre": "Brasil_Jugador_4",
+        "seleccion": "Brasil",
+        "posicion": "Delantero",
+        "edad": 20,
+        "partidos": 4
+    },
+    {
+        "nombre": "Brasil_Jugador_5",
+        "seleccion": "Brasil",
+        "posicion": "Defensa",
+        "edad": 19,
+        "partidos": 70
+    },
+    {
+        "nombre": "Brasil_Jugador_6",
+        "seleccion": "Brasil",
+        "posicion": "Defensa",
+        "edad": 32,
+        "partidos": 39
+    },
+    {
+        "nombre": "Brasil_Jugador_7",
+        "seleccion": "Brasil",
+        "posicion": "Defensa",
+        "edad": 28,
+        "partidos": 81
+    },
+    {
+        "nombre": "Brasil_Jugador_8",
+        "seleccion": "Brasil",
+        "posicion": "Defensa",
+        "edad": 30,
+        "partidos": 29
+    },
+    {
+        "nombre": "Brasil_Jugador_9",
+        "seleccion": "Brasil",
+        "posicion": "Defensa",
+        "edad": 35,
+        "partidos": 91
+    }
+]

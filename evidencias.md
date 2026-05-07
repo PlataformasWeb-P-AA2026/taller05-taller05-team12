@@ -168,3 +168,5 @@ se hace con una funcion de mapeo de acuerdo al dato del json
 
 ## Resultado Vistas
 
+# Resultado Frontend  
+<img width="1833" height="1072" alt="image" src="https://github.com/user-attachments/assets/69b6214e-a0d6-443e-829a-c15f3f67a434" />

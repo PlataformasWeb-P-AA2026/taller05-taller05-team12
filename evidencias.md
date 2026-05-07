@@ -91,7 +91,9 @@ with open('sudamerica.json', 'w', encoding='utf-8') as f:
     json.dump(docs, f, indent=4, ensure_ascii=False)
     
 print(f"Generado sudamerica.json con {len(docs)} registros.")
+
+//para combinar todos los json hicimos uso de la herramienta bulldogs
 ```
-para combinar todos los json hicimos uso de la herramienta bulldogs
+
 
 Evidencias de cargas en couchDB

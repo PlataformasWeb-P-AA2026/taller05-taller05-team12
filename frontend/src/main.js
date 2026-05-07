@@ -2,7 +2,7 @@ import './style.css';
 import DataTable from 'datatables.net-dt';
 import 'datatables.net-dt/css/dataTables.dataTables.css';
 
-const BASE_URL = "http://localhost:5985/jugadores/_design/losjugadores/_view/";
+const BASE_URL = "http://localhost:5985/jugadores/_design/jugadores2.2/_view/";
 
 let tabla = null;
 

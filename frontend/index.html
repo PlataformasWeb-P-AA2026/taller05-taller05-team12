@@ -4,18 +4,42 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vite-jquery-datatable</title>
+    <title>Datos Jugadores</title>
   </head>
   <body>
-    <select id="vista">
-      <option value="por_club">Por club</option>
-      <option value="por_partidos">Por partidos</option>
-      <option value="por_goles">Por goles</option>
-    </select>
+    <header class="header">
+      <h1>Mundial 2026 - Consulta de Jugadores</h1>
+      <p>Universidad Técnica Particular de Loja</p>
+    </header>
 
-    <input id="filtro" type="text" placeholder="Filtrar por criterio" />
+    <main class="container">
+      <div class="controls">
+        <select id="vista" class="select">
+          <option value="por_club">Por club</option>
+          <option value="por_partidos">Por partidos</option>
+          <option value="por_goles">Por goles</option>
+        </select>
 
-    <table id="tabla-posts"></table>
+        <input
+          id="filtro"
+          type="text"
+          class="input"
+          placeholder="Filtrar por criterio"
+        />
+      </div>
+
+      <div class="table-container">
+        <table id="tabla-posts" class="table"></table>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>
+        &copy; 2026 UTPL - Taller 05 Team 12 <br />
+        Hecho por: Jean Cuenca y Jhon Calle
+      </p>
+    </footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

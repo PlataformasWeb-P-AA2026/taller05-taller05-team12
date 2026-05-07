@@ -92,7 +92,7 @@ with open('sudamerica.json', 'w', encoding='utf-8') as f:
     
 print(f"Generado sudamerica.json con {len(docs)} registros.")
 
-//para combinar todos los json hicimos uso de la herramienta bulldogs
+//para combinar todos los Json hicimos uso e implementación de la herramienta bulldogs
 ```
 
 

@@ -4,7 +4,7 @@ Creacion de la base de datos dentro de couch DB llamada jugadores
 
 Creacion de los tres scripts para transformarlos a Json
 
-script csv a jason
+Script csv a jason
 ```java
 
 import pandas as pd
@@ -19,7 +19,7 @@ with open('sudamerica.json', 'w', encoding='utf-8') as f:
 print(f"Generado sudamerica.json con {len(docs)} registros.")
 ```
 
-script html a json
+Script html a json
 ```java
 
 import pandas as pd
@@ -38,7 +38,7 @@ df.to_json('europa.json', orient='records', indent=4, force_ascii=False)
 print("Tabla HTML convertida a JSON usando pandas.")
 ```
 
-script pdf a jason
+Script pdf a jason
 ```java
 
 import pdfplumber
@@ -78,7 +78,7 @@ with open("norteamerica_asia.json", "w", encoding='utf-8') as f:
 print(f"PDF convertido a JSON estructurado. Se extrajeron {len(docs)} registros.")
 ```
 
-script combinado de todos los Json
+Script combinado de todos los Json
 ```java
 
 import pandas as pd

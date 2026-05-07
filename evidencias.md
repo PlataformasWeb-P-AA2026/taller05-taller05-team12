@@ -152,20 +152,19 @@ elif response_vistas.status_code == 409:
         print("Vistas actualizadas exitosamente.")
 ```
 Capturas del Frontend funcionando
+
 <img width="906" height="263" alt="image" src="https://github.com/user-attachments/assets/61808c6f-07ca-445f-8984-56577cbd293e" />
-```java
+
 Despues de haber cargado los documentos mediante el script cargar_couchb.py
 dentro del couchdb debria ncargarse 120 registros en total de los json combinados
-```
+
 <img width="1062" height="672" alt="image" src="https://github.com/user-attachments/assets/e56a9b0e-4ff0-4ece-8a99-f8daefac8fae" />
 
-```java
 Una vez que tengamos cargados los documentos, dentro de Design creamos 3 vistas una para clube otra para goles y por ultimo por partidos de todo el json
 se hace con una funcion de mapeo de acuerdo al dato del json
-```
+
 
 <img width="372" height="579" alt="image" src="https://github.com/user-attachments/assets/61ecd254-bad1-43e8-887a-6ec5db76b241" />
 
-```java
 Resultado Vistas
-```
+

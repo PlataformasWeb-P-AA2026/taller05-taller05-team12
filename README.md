@@ -1,4 +1,4 @@
-# taller05
+
 # Pasos para replicar el taller
 ## 1) Paso Generar los jsons
 dentro de la carpeta raiz existe un archivo requirements.txt
@@ -24,6 +24,8 @@ python combinar_json.py
 ```
 python cargar_couchdb.py
 ```
+---
+# taller05
 Integrar datos de múltiples fuentes (HTML, CSV, PDF), transformarlos en un formato común y almacenarlos en CouchDB para su posterior consulta mediante vistas, desde vite
 
 

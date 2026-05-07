@@ -1,4 +1,5 @@
-
+# Integrantes: Jean Carlos Cuenca y Jhon Calle
+# Fecha: 07/05/2026
 # Pasos para replicar el taller
 ## 1) Paso Generar los jsons
 dentro de la carpeta raiz existe un archivo requirements.txt

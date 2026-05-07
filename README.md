@@ -26,7 +26,7 @@ El archivo JSON debe llamarse así: mundial_2026.json
 
 2. Generar tres vistas
 
-2.1. En Design Document debe ir: losjugadores
+2.1. En Design Document debe ir: los jugadores
 2.2. En Index name debe ir: por_club, despúes por_goles, por_partidos
 2.3. Cada vista debe seguir la siguiente estructura, según corresponda
 

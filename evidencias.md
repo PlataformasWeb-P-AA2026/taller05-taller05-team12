@@ -6,7 +6,8 @@ Creacion de los tres scripts para transformarlos a Json
 csv a json
 
 ```java
-script import pandas as pd
+script
+import pandas as pd
 import json
 
 df = pd.read_csv('../data/fuente_csv_sudamerica.csv')

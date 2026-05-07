@@ -1,7 +1,29 @@
 # taller05
+# Pasos para replicar el taller
+## 1) Paso Generar los jsons
+dentro de la carpeta raiz existe un archivo requirements.txt
+ejecutar este comando en la raiz de proyecto para importar las clases necesarias para generar los jsons
+```
+pip install -r requirements.txt
 
+```
+Ahora dentro de la carpeta formato-json existen tres arhicvos .py
+ejecutar cada uno de ellos
+```
+python csv_json.py
+python html_json.py
+python pdf_json.py
+```
+## 2) Paso Combinar los jsons
+esto generara 3 archivos json, el siguiente paso seria combinar estos jsons en uno solo para cargar a couch db
 ## Integración de datos y uso de CouchDB
-
+```
+python combinar_json.py
+```
+## 3) Paso Cargar el json a couch db
+```
+python cargar_couchdb.py
+```
 Integrar datos de múltiples fuentes (HTML, CSV, PDF), transformarlos en un formato común y almacenarlos en CouchDB para su posterior consulta mediante vistas, desde vite
 
 
